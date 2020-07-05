@@ -56,6 +56,8 @@ body header {
   font-size: 18px;
   color: #ffffff;
   margin-right: 120px;
+  letter-spacing: 3px;
+  font-size: 16px;
 }
 body main {
   display: flex;
