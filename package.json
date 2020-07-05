@@ -1,0 +1,33 @@
+{
+  "name": "180o.in",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html --detailed-report 10 --no-source-maps",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint \"**/*.js\" --ignore-pattern node_modules/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arunselvakumar/180o.in.git"
+  },
+  "author": "Arun Selva Kumar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arunselvakumar/180o.in/issues"
+  },
+  "homepage": "https://github.com/arunselvakumar/180o.in#readme",
+  "dependencies": {
+    "modern-normalize": "^0.6.0",
+    "parcel-bundler": "^1.12.4"
+  },
+  "devDependencies": {
+    "eslint": "^7.3.1",
+    "eslint-config-google": "^0.14.0",
+    "eslint-config-prettier": "^6.11.0",
+    "prettier": "2.0.5",
+    "sass": "^1.26.9"
+  }
+}
