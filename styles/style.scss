@@ -1,0 +1,21 @@
+@import '../assets/fonts/hello/stylesheet.css';
+
+$dark-purple-color: #671245;
+
+body {
+  background-color: $dark-purple-color;
+
+  .flex {
+    display: flex;
+  }
+
+  .flex-column {
+    @extend .flex;
+
+    flex-direction: column;
+  }
+
+  .header {
+    font-family: 'helloregular', Arial, Helvetica, sans-serif;
+  }
+}
