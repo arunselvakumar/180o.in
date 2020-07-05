@@ -1,4 +1,5 @@
 @import '../assets/fonts/hello/stylesheet.css';
+@import '../node_modules/animate.css/animate.min.css';
 
 $dark-purple-color: #671245;
 $white-color: #ffffff;
@@ -19,6 +20,10 @@ $white-color: #ffffff;
   cursor: pointer;
 }
 
+.upper-case {
+  text-transform: uppercase;
+}
+
 .flex-column-center {
   display: flex;
   flex-direction: column;
@@ -31,17 +36,19 @@ body {
 
   header {
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
     color: $white-color;
+    margin-right: 120px;
   }
 
   main {
-    height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
+    height: calc(100vh - 120px);
 
     .title {
       font-family: 'helloregular', Arial, Helvetica, sans-serif;

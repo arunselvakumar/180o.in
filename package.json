@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/arunselvakumar/180o.in#readme",
   "dependencies": {
+    "animate.css": "^4.1.0",
     "modern-normalize": "^0.6.0",
     "parcel-bundler": "^1.12.4"
   },
